@@ -1,0 +1,34 @@
+{{> header}}
+<section id="container">
+    <section id="content">
+        <h1>Category: {{name}}</h1>
+        <ul>
+        {{#pages.length}}
+            <li>
+                <section>
+                    <h2>Pages</h2>
+                    <ul>
+                        {{#pages}}
+                        <li><a href="../pages/{{filename}}" name="page: {{title}}">{{title}}</a></li>
+                        {{/pages}}
+                    </ul>
+                </section>
+            </li>
+        {{/pages.length}}
+        {{#posts.length}}
+            <li>
+                <section>
+                    <h2>Posts</h2>
+                    <ul>
+                        {{#posts}}
+                        <li><a href="../posts/{{filename}}" name="post: {{title}}">{{title}}</a></li>
+                        {{/posts}}
+                    </ul>
+                </section>
+            </li>
+        {{/posts.length}}
+    </section>
+    {{> footer}}
+</section>
+{{> sidebar}}
+{{> foot}}

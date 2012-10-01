@@ -1,0 +1,11 @@
+{
+    "title":"Wanna",
+    "subtitle":"Wanna is a blog-aware, static site generator in Node.js.",
+    "author":"Shawn",
+    "keywords":"wanna blog, wanna, wannajs, nodejs",
+    "theme":"wannjs.org",
+
+    "rsync_username": "root",
+    "rsync_host": "shaoshuai.me",
+    "rsync_path": "/var/www/wannajs.org/"
+}

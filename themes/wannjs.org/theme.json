@@ -1,0 +1,5 @@
+{
+    "name": "wannjs.org",
+    "version": "0.1",
+    "viewEngine": "mustache"
+}

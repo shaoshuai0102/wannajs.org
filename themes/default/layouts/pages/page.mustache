@@ -1,0 +1,17 @@
+{{> header}}
+<section id="container">
+    <section id="content">
+        <article>
+            {{#categories.length}}
+                Categories:
+                {{#categories}}
+                    <a href="../categories/{{.}}.html" name="category: {{.}}">{{.}}</a>
+                {{/categories}}
+            {{/categories.length}}
+            {{{content}}}
+        </article>
+    </section>
+    {{> footer}}
+</section>
+{{> sidebar}}
+{{> foot}}
